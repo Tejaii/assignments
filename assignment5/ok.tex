@@ -8,7 +8,7 @@
 \usepackage{mathtools}
 
 % Define the custom commands
-\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\brak}[1]{\left\brak{ #1 \right}
 \newcommand{\sbrak}[1]{\left[ #1 \right]}
 \newcommand{\abs}[1]{\left| #1 \right|}
 \newcommand{\lt}{\lt}
@@ -52,7 +52,7 @@
         \end{enumerate}
         \end{multicols}
 
-    \item Let $ f $ and $ g $ be differentiable functions on $ \mathbb{R} $, such that $ f \circ g $ is the identity function. If for some $ a, b \in \mathbb{R} $, $ g \prime \brak{a} = 5 $ and $ g(a) = b $, then $ f \prime \brak{b} $ is equal to:
+    \item Let $ f $ and $ g $ be differentiable functions on $ \mathbb{R} $, such that $ f \circ g $ is the identity function. If for some $ a, b \in \mathbb{R} $, $ g \prime \brak{a} = 5 $ and $ g\brak{a} = b $, then $ f \prime \brak{b} $ is equal to:
         \begin{multicols}{4}
         \begin{enumerate}
             \item $ \frac{2}{5} $  
@@ -96,9 +96,9 @@
         \item not a critical point.
     \end{enumerate}
 
-    \item Let $ [t] $ denote the greatest integer $ \leq t $ and
-    $ \lim_{x \rightarrow 0} x \left[ \frac{4}{x} \right] = A $.
-    Then the function, $ f\brak{x} = [x^{2}] \sin \pi x $ is discontinuous when $ x $ is equal to:
+    \item Let $ \sbrak{t} $ denote the greatest integer $ \leq t $ and
+    $ \lim_{x \rightarrow 0} x \left \sbrak{ \frac{4}{x} \right} = A $.
+    Then the function, $ f\brak{x} = \sbrak{x^{2}} \sin \pi x $ is discontinuous when $ x $ is equal to:
     \begin{enumerate}
         \item $ \sqrt{A+1} $
         \item $ \sqrt{A} $
@@ -129,7 +129,7 @@
     1 - x, & \frac{1}{2} \lt x \leq 1
     \end{cases} $
     and $ g\brak{x} = \brak{ x - \frac{1}{2} }^{2}, x \in \mathbb{R} $.
-    Then the area (in sq. units) of the region bounded by the curves $ y = f\brak{x} $ and $ y = g\brak{x} $ between the lines $ 2x = 1 $ to $ 2x = \sqrt{3} $ is:
+    Then the area \brak{in sq. units} of the region bounded by the curves $ y = f\brak{x} $ and $ y = g\brak{x} $ between the lines $ 2x = 1 $ to $ 2x = \sqrt{3} $ is:
     \begin{enumerate}
         \item $ \frac{\sqrt{3}}{4} - \frac{1}{3} $
         \item $ \frac{1}{3} + \frac{\sqrt{3}}{4} $
@@ -137,15 +137,15 @@
         \item $ \frac{1}{2} - \frac{\sqrt{3}}{4} $
     \end{enumerate}
 
-    \item The length of the minor axis (along y-axis) of an ellipse of the standard form is $ \frac{1}{\sqrt{3}} $. If this ellipse touches the line $ x + 6y = 8 $, then its eccentricity is:
+    \item The length of the minor axis \brak{along y-axis} of an ellipse of the standard form is $ \frac{1}{\sqrt{3}} $. If this ellipse touches the line $ x + 6y = 8 $, then its eccentricity is:
     \begin{enumerate}
-        \item $ \frac{1}{2} \left( \frac{\sqrt{5}}{3} \right) $
+        \item $ \frac{1}{2} \left\brak{ \frac{\sqrt{5}}{3} \right} $
         \item $ \frac{1}{2} \sqrt{\frac{11}{3}} $
         \item $ \sqrt{\frac{5}{6}} $
         \item $ \frac{1}{3} \sqrt{\frac{11}{3}} $
     \end{enumerate}
 
-    \item If $ z $ is a complex number satisfying $ \abs{\text{Re}(z)} + \abs{\text{Im}(z)} = 4 $, then $ \abs{z} $ cannot be:
+    \item If $ z $ is a complex number satisfying $ \abs{\text{Re}\brak{z}} + \abs{\text{Im}\brak{z}} = 4 $, then $ \abs{z} $ cannot be:
     \begin{enumerate}
         \item $ \sqrt{7} $
         \item $ \sqrt{\frac{17}{2}} $
@@ -154,7 +154,7 @@
     \end{enumerate}
 
     \item If        
-    $ x = \sum_{n=0}^{\infty} (-1)^{n} \tan^{2n} \theta $  
+    $ x = \sum_{n=0}^{\infty} \brak{-1}^{n} \tan^{2n} \theta $  
     and
     $ y = \sum_{n=0}^{\infty} \cos^{2n} \theta $
     where $ 0 \lt \theta \lt \frac{\pi}{4} $, then:
