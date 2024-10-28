@@ -1,0 +1,138 @@
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\DeclareMathOperator*{\infimum}{inf}
+
+% Define the custom commands
+\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\sbrak}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2015-PH-14-26}
+\author{EE24BTECH11034 - K Teja Vardhan}
+{\let\newpage\relax\maketitle}
+
+\begin{enumerate}
+
+\item Let $u\brak{x,y} = x^3 + a x^2 y + b x y^2 + 2 y^3$ be a harmonic function and $v\brak{x,y}$ its harmonic conjugate. If $v\brak{0,0} = 1$, then $\abs{a + b + v\brak{1,1}}$ is equal to \underline{\hspace{2cm}}
+
+\item Let $\gamma$ be the triangular path connecting the points $\brak{0,0}$, $\brak{2,2}$ and $\brak{0,2}$ in the counter-clockwise direction in $\mathbb{R}^2$. Then
+
+    $$I = \oint_{\gamma}  
+    \sin\brak{x^3}dx + 6 x y dy$$
+
+    is equal to \underline{\hspace{2cm}}
+
+\item Let $y$ be the solution of 
+
+    $$y\prime + y = \abs{x}, \quad x \in \mathbb{R}, \quad y\brak{-1} = 0.$$
+
+    Then $y\brak{1}$ is equal to
+
+    \begin{enumerate}
+        \item $\dfrac{2}{e} - \dfrac{2}{e^2}$
+        \item $\dfrac{2}{e} - 2 e^2$
+        \item $2 - \dfrac{2}{e}$
+        \item $2 - 2 e$
+    \end{enumerate}
+
+\item Let $X$ be a random variable with the following cumulative distribution function:
+
+    $$F\brak{x} = \begin{cases}
+        0 & x \lt 0 \\
+        x^2 & 0 \leq x \lt \dfrac{1}{2} \\
+        \dfrac{3}{4} & \dfrac{1}{2} \leq x \lt 1 \\
+        1 & 2 \leq x \lt 1.
+    \end{cases}$$
+
+    Then $P\brak{\dfrac{1}{4} \lt X \lt 1}$ is equal to \underline{\hspace{2cm}}
+
+\item Let $\gamma$ be the curve which passes through $\brak{0,1}$ and intersects each curve of the family $y = c x^2$ orthogonally. Then $\gamma$ also passes through the point
+
+    \begin{enumerate}
+        \item $\brak{\sqrt{2},0}$
+        \item $\brak{0,\sqrt{2}}$
+        \item $\brak{1,1}$
+        \item $\brak{-1,1}$
+    \end{enumerate}
+
+\item Let $S\brak{x} = a_0 + \sum_{n=1}^{\infty}\brak{a_n \cos\brak{n x} + b_n \sin\brak{n x}}$ be the Fourier series of the $2 \pi$ periodic function defined by $f\brak{x} = x^2 + 4 \sin\brak{x} \cos\brak{x}, -\pi \le x \le \pi$. Then 
+
+    $$\abs{\sum_{n=0}^{\infty} a_n - \sum_{n=1}^{\infty} b_n}$$
+
+    is equal to \underline{\hspace{2cm}}
+
+\item Let $y\brak{t}$ be a continuous function on $\sbrak{0,\infty}$. If
+
+    $$y\brak{t} = t\brak{1 - 4\int_{0}^{t}y\brak{x}dx} + 4\int_{0}^{t}x y\brak{x}dx,$$
+
+    then $\int_{0}^{\pi/2} y\brak{t} dt$ is equal to \underline{\hspace{2cm}}
+
+\item Let $S_n = \sum_{k=1}^{n} \dfrac{1}{k}$ and $I_n = \int_{1}^{n} \dfrac{x - \sbrak{x}}{x^2} dx$. Then $S_{10} + I_{10}$ is equal to
+
+    \begin{enumerate}
+        \item $\ln 10 + 1$
+        \item $\ln 10 - 1$
+        \item $\ln 10 - \dfrac{1}{10}$
+        \item $\ln 10 + \dfrac{1}{10}$
+    \end{enumerate}
+
+\item For any $\brak{x,y} \in \mathbb{R}^2 \setminus B\brak{0,1}$, let
+
+    $$f\brak{x,y} = \text{distance}\brak{\brak{x,y}, B\brak{0,1}}$$
+    $$= \infimum\sbrak{\sqrt{\brak{x - x_1}^2 + \brak{y - y_1}^2} : \brak{x_1,y_1} \in B\brak{0,1}}.$$
+
+    Then, $\abs{\nabla f\brak{3,4}}$ is equal to \underline{\hspace{2cm}}
+
+\item Let $f\brak{x} = \int_{0}^{x} e^{t^2 - t^2} dt$ and $g\brak{x} = \int_{0}^{x} \dfrac{e^{t^2 + t^2}}{1 + t^2} dt$. Then $f\brak{\sqrt{\pi}} + g\brak{\sqrt{\pi}}$ is equal to \underline{\hspace{2cm}}
+
+\item Let $M = \begin{bmatrix}
+        a & b & c \\
+        d & e & f \\
+        g & h & i
+    \end{bmatrix}$ be a real matrix with eigenvalues $1$, $0$, and $3$. If the eigenvectors corresponding to $1$ and $0$ are $\sbrak{1,1,1}^T$ and $\sbrak{1,-1,0}^T$, respectively, then  
+ the value of $3 f$ is equal to \underline{\hspace{2cm}}
+
+\item Let $M = \begin{bmatrix}
+        1 & 1 & 0 \\
+        0 & 1 & 1 \\
+        0 & 0 & 1
+    \end{bmatrix}$ and $e^M = I + M + \dfrac{1}{2!} M^2 + \dfrac{1}{3!} M^3 + \cdots$. If $e^M = \sbrak{b_{ij}}$, then 
+
+    $$\dfrac{1}{e} \sum_{i=1}^3 \sum_{j=1}^3 b_{ij}$$
+
+    is equal to \underline{\hspace{2cm}}
+
+\item Let the integral $I = \int_{0}^{4} f\brak{x} dx$, where $f\brak{x} = \begin{cases}
+        x & 0 \leq x \leq 2 \\
+        4 - x & 2 \leq x \leq 4.
+    \end{cases}$
+
+    Consider the following statements $P$ and $Q$:
+
+    $P$: If $I_2$ is the value of the integral obtained by the composite trapezoidal rule with two equal sub-intervals, then  
+ $I_2$ is exact.
+
+    $Q$: If $I_3$ is the value of the integral obtained by the composite trapezoidal rule with three equal sub-intervals, then $I_3$ is exact.
+
+    Which of the above statements hold TRUE?  
+
+    \begin{enumerate}
+        \item both $P$ and $Q$
+        \item only $P$
+        \item only $Q$
+        \item Neither $P$ nor $Q$
+    \end{enumerate}
+
+\end{enumerate}
+\end{document}
