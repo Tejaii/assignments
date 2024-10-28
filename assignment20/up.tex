@@ -1,0 +1,205 @@
+\documentclass{article}
+\usepackage{tikz, tkz-euclide}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mathrsfs}
+\usepackage{pgfplots}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\DeclareMathOperator*{\infimum}{inf}
+
+% Define the custom commands
+\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\sbrak}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\renewcommand{\prime}{\text{\textquotesingle}}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2015-PH-14-26}
+\author{EE24BTECH11034 - K Teja Vardhan}
+{\let\newpage\relax\maketitle}
+
+\begin{enumerate}
+
+ \item The electric field component of a plane electromagnetic wave traveling in vacuum is given by $E\brak{z,t} = E_0 \cos\brak{kz - \omega t}\hat{i}$. The Pointing vector for the wave is
+
+        \begin{enumerate}
+            \item $\brak{\frac{c \epsilon_0}{2}}E_0^2 \cos^2\brak{kz - \omega t} \hat{j}$
+            \item $\brak{\frac{c \epsilon_0}{2}}E_0^2 \cos^2\brak{kz - \omega t} \hat{k}$
+            \item $c \epsilon_0 E_0^2 \cos^2\brak{kz - \omega t} \hat{j}$
+            \item $c \epsilon_0 E_0^2 \cos^2\brak{kz - \omega t} \hat{k}$
+        \end{enumerate}
+
+    \item Consider a system having three energy levels with energies $0, 2\epsilon$, and $3\epsilon$, with respective degeneracies of 2, 2, and 3. Four bosons of spin zero have to be accommodated in these levels such that the total energy of the system is $10\epsilon$.  
+ The number of ways in which it can be done is \underline{\hspace{2cm}}
+
+    \item The Lagrangian of a system is given by
+    $$L = \frac{1}{2}ml^2\brak{\dot{\theta}^2 + \sin^2\theta \dot{\phi}^2} - mgl\cos\theta,$$
+    where $m, l$, and $g$ are constants.
+
+    Which of the following is conserved?
+
+    \begin{enumerate}
+        \item $\sin^2\theta$
+        \item $\sin\theta$
+        \item $\frac{\phi}{\sin\theta}$
+        \item $\frac{\phi}{\sin^2\theta}$
+    \end{enumerate}
+
+    \item Protons and $\alpha$-particles of equal initial momenta are scattered off a gold foil in a Rutherford scattering experiment. The scattering cross sections for proton on gold and  
+ $\alpha$-particle on gold are $\sigma_p$ and $\sigma_{\alpha}$, respectively. The ratio  
+ $\frac{\sigma_{\alpha}}{\sigma_p}$ is \underline{\hspace{2cm}}
+
+ \item For the digital circuit given below, the output X is
+
+    \begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw (7.125,13.25) node[ieeestd not port, anchor=in](port){} (port.out) to[short] (9.25,13.25);
+\draw (port.in) to[short] (6.5,13.25);
+\draw (6.5,11.25) to[short] (7,11.25);
+\draw (6.5,10.75) to[short] (7,10.75);
+\draw (7,11.25) node[ieeestd or port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (9.25,11);
+\draw (9.25,12.25) to[short] (10,12.25);
+\draw (9.25,11.75) to[short] (10,11.75);
+\draw (10,12.25) node[ieeestd nand port, anchor=in 1, scale=0.89](port){} (port.out) to[short] (12.5,12);
+
+\draw (9.25,13.25) to[short] (9.25,12.25);
+\draw (9.25,11.75) to[short] (9.25,11);
+\node [font=\LARGE] at (6,13.5) {A};
+\node [font=\LARGE] at (6,11.5) {B};
+\node [font=\LARGE] at (6,10.5) {C};
+\node [font=\LARGE] at (13,12) {X};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+
+    \begin{enumerate}
+        \item $\overline{A} + B \cdot C$
+        \item $\overline{\overline{A}} \cdot \brak{B + C}$
+        \item $\overline{A} \cdot \brak{B + C}$
+        \item $A + \brak{B \cdot C}$
+    \end{enumerate}
+
+    \item The Fermi energies of two metals X and Y are 5 eV and 7 eV and their Debye temperatures are 170 K and 340 K, respectively. The molar specific heats of these metals at constant volume at low temperatures can be written as $\brak{C_v}_X = \gamma_X T + A_X T^3$ and $\brak{C_v}_Y = \gamma_Y T + A_Y T^3$, where $\gamma$ and $A$ are constants. Assuming that the thermal effective mass of the electrons in the two metals are same, which of  
+ the following is correct?
+
+    \begin{enumerate}
+        \item $\frac{\gamma_X}{\gamma_Y} = \frac{7}{5}, \frac{A_X}{A_Y} = 8$
+        \item $\frac{\gamma_X}{\gamma_Y} = \frac{7}{5}, \frac{A_X}{A_Y} = 1$
+        \item $\frac{\gamma_X}{\gamma_Y} = \frac{5}{7}, \frac{A_X}{A_Y} = 8$
+        \item $\frac{\gamma_X}{\gamma_Y} = \frac{5}{7}, \frac{A_X}{A_Y} = \frac{1}{8}$
+    \end{enumerate}
+
+    \item A two-level system has energies zero and $E$. The level with zero energy is non-degenerate, while the level with energy $E$ is triply degenerate. The mean energy of a classical particle in this system at a temperature $T$ is  
+
+
+    \begin{enumerate}
+        \item $\frac{Ee^{-\frac{E}{k_BT}}}{1+3e^{-\frac{E}{k_BT}}}$
+        \item $\frac{Ee^{-\frac{E}{k_BT}}}{1+e^{-\frac{E}{k_BT}}}$
+        \item $\frac{3Ee^{-\frac{E}{k_BT}}}{1+e^{-\frac{E}{k_BT}}}$
+        \item $\frac{3Ee^{-\frac{E}{k_BT}}}{1+3e^{-\frac{E}{k_BT}}}$
+    \end{enumerate}
+
+ \item A particle of rest mass $M$ is moving along the positive $x$-direction. It decays into two photons $\gamma_1$ and $\gamma_2$ as shown in the figure. The energy of $\gamma_1$ is 1 GeV and the energy of $\gamma_2$ is 0.82 GeV. The value of $M$ in units of $\frac{GeV}{{c}^2}$ is  
+ \underline{\hspace{2cm}}.
+
+\begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [->, >=Stealth] (6.25,11) -- (15,11);
+\draw [->, >=Stealth, dashed] (10.5,11) -- (15,15.25);
+\draw [->, >=Stealth, dashed] (10.5,11) -- (15,8);
+\draw [short] (11.5,12) .. controls (12.5,11.75) and (12.5,11.75) .. (12.25,11);
+\draw [short] (12.5,11) .. controls (12.75,10.5) and (12.75,10.5) .. (12.25,10);
+\node [font=\LARGE] at (13.25,10.25) {45};
+\node [font=\LARGE] at (12.75,12) {60};
+\node [font=\LARGE] at (8.5,11.5) {M};
+\node [font=\LARGE] at (13.5,14.75) {$Y_1$};
+\node [font=\LARGE] at (15.25,8.25) {$Y_2$};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+   
+
+    \item If $x$ and $p$ are the $x$ components of the position and the momentum operators of a particle respectively, the commutator $\sbrak{x^2, p^2}$  
+ is
+
+    \begin{enumerate}
+        \item $i\hbar\brak{xp - px}$
+        \item $2i\hbar\brak{xp - px}$
+        \item $i\hbar\brak{xp + px}$
+        \item $2i\hbar\brak{xp + px}$
+    \end{enumerate}
+
+    \item The $xy$ plane is the boundary between free space and a magnetic material with relative permeability $\mu_r$. The magnetic field in the free space  
+ is $\vec{B}_1 = B_1 \hat{i} + B_2 \hat{k}$. The magnetic field in the magnetic material is
+
+    \begin{enumerate}
+        \item $B_1 \hat{i} + B_2 \hat{k}$
+        \item $\mu_r B_1 \hat{i} + \mu_r B_2 \hat{k}$
+        \item $\frac{1}{\mu_r} B_1 \hat{i} + B_2 \hat{k}$
+        \item $B_1 \hat{i} + \frac{1}{\mu_r} B_2 \hat{k}$
+    \end{enumerate}
+
+    \item Let $\abs{l,m}$ be the simultaneous eigenstates of $L^2$ and $L_z$. Here $L$ is the angular momentum operator with Cartesian components $\brak{L_x, L_y, L_z}$, $l$ is the angular momentum quantum number and $m$ is the azimuthal quantum number. The value of $\abs{1,0}\brak{L_x + iL_y}\abs{1,-1}$ is
+
+    \begin{enumerate}
+        \item 0
+        \item $\hbar$
+        \item $\sqrt{2}\hbar$
+        \item $\sqrt{3}\hbar$
+    \end{enumerate}
+
+\item For the parity operator $P$, which of the following statements is \textbf{NOT true}?
+
+\begin{enumerate}
+    
+    \item $P\prime = P$
+    \item $P^2 = -P$
+    \item $P^2 = I$
+    \item $P\prime = P^{-1}$
+\end{enumerate}
+
+\item For the transistor shown in the figure, assume $V_{BE} = 0.7 \, \text{V}$ and $\beta_{dc} = 100$. If $V_{in} = 5 \, \text{V}$, $V_{out}$  is \underline{\hspace{2cm}}.
+
+\begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw (7.25,10.75) to[R] (9.75,10.75);
+\draw (10.25,13.75) to[R] (10.25,11.75);
+\draw (10.25,10) to[R] (10.25,7.75);
+\draw (10.25,9.75) to[Tpnp, transistors/scale=1.19] (10.25,11.75);
+\draw (10.25,7.75) to (10,7.75) node[ground]{};
+\node [font=\normalsize] at (8.25,11.25) {200 k$\Omega$};
+\node [font=\normalsize] at (11,12.75) {3 k$\Omega$};
+\node [font=\normalsize] at (11,8.5) {1 k$\Omega$};
+\node [font=\normalsize] at (6.5,10.75) {V(in)};
+\node [font=\normalsize] at (12,11.25) {V(out)};
+\draw (10.25,11.25) to[short, -o] (11.25,11.25) ;
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+
+\end{enumerate}
+\end{document}
