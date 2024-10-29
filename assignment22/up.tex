@@ -1,0 +1,150 @@
+\documentclass{article}
+\usepackage{tikz, tkz-euclide}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mathrsfs}
+\usepackage{pgfplots}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\DeclareMathOperator*{\infimum}{inf}
+
+% Define the custom commands
+\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\sbrak}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\renewcommand{\prime}{\text{\textquotesingle}}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2017-PH-40-52}
+\author{EE24BTECH11034 - K Teja Vardhan}
+{\let\newpage\relax\maketitle}
+
+\begin{enumerate}
+
+\item Let $X$ be a column vector of dimension $n \gt 1$ with at least one non-zero entry. The number of non-zero eigenvalues of the matrix $M = XX^T$ is
+
+\begin{enumerate}
+    \item $0$
+    \item $n$
+    \item $1$
+    \item $n-1$
+\end{enumerate}
+
+\item $J^\pi$ for the ground state of the $^{13}_6C$ nucleus is
+
+\begin{enumerate}
+    \item $1^+$
+    \item $\frac{3^-}{2}$
+    \item $\frac{3^+}{2}$
+    \item $\frac{1^-}{2}$
+\end{enumerate}
+
+\item A uniform solid cylinder is released on a horizontal surface with speed $5 \frac{m}{s}$ without any rotation. The cylinder eventually starts rolling without slipping. If the mass and radius of the cylinder are $10$ gm and $1$ cm respectively, the final linear velocity of the cylinder is .
+
+\item The energy density and pressure of a photon gas are given by $u = aT^4$ and $P = \frac{u}{3}$, where $T$ is the temperature and $a$ is the radiation constant. The entropy per unit volume is given by $aT^3$. The value of $a$ is.
+
+\item Which one of the following gases of diatomic molecules is $Raman$, infrared, and $NMR$ active?
+
+\begin{enumerate}
+    \item $^1H-H$
+    \item $^{12}C-^{16}O$
+    \item $^1H-^{35}Cl$
+    \item $^{16}O-^{16}O$
+\end{enumerate}
+
+\item The $\pi^+$ decays at rest to $\mu^+$ and $\nu_{\mu}$. Assuming the neutrino to be massless, the momentum of the neutrino is. 
+
+\item Using Hund's rule, the total angular momentum quantum number $J$ for the electronic ground state of the nitrogen atom is
+
+\begin{enumerate}
+    \item $\frac{1}{2}$
+    \item $\frac{3}{2}$
+    \item $0$
+    \item $1$
+\end{enumerate}
+
+\item Which one of the following operators is Hermitian?
+
+\begin{enumerate}
+    \item $\frac{i(p_x x^2 - x^2 p_x)}{2}$
+    \item $\frac{i(p_x x^2 + x^2 p_x)}{2}$
+    \item $e^{ip_x a}$
+    \item $e^{-ip_x a}$
+\end{enumerate}
+
+\item The real space primitive lattice vectors are $\vec{a}_1 = a\hat{x}$ and $\vec{a}_2 = \frac{a}{2}\brak{\hat{x} + \sqrt{3}\hat{y}}$. The reciprocal space unit vectors $\vec{b}_1$ and $\vec{b}_2$ for this lattice are, respectively  
+
+\begin{enumerate}
+    \item $\frac{2\pi}{a}\brak{\hat{x} - \frac{\hat{y}}{\sqrt{3}}}$ and $\frac{4\pi}{a\sqrt{3}}\hat{y}$
+    \item $\frac{2\pi}{a}\brak{\hat{x} + \frac{\hat{y}}{\sqrt{3}}}$ and $\frac{4\pi}{a\sqrt{3}}\hat{y}$
+    \item $\frac{2\pi}{a\sqrt{3}}\hat{x}$ and $\frac{4\pi}{a}\brak{\frac{\hat{x}}{\sqrt{3}} + \hat{y}}$
+    \item $\frac{2\pi}{a\sqrt{3}}\hat{x}$ and $\frac{4\pi}{a}\brak{\frac{\hat{x}}{\sqrt{3}} - \hat{y}}$
+\end{enumerate}
+
+\item Consider two particles and two non-degenerate quantum levels $1$ and $2$. Level $1$ always contains a particle. Hence, what is the probability that level $2$ also contains a particle for each of the two cases:
+
+$a$: when the two particles are distinguishable and $B$: when the two particles are bosons?  
+
+\begin{enumerate}
+    \item  $1/2$ and  $1/3$
+    \item  $1/2$ and $1/2$
+    \item  $2/3$ and  $1/2$
+    \item  $1$ and  $0$
+\end{enumerate}
+
+\item A person weighs $W_p$ at Earth's north pole and $W_e$ at the equator. Treating the Earth as a perfect sphere of radius 6400 km, the value $100 \times \frac{\brak{W_p - W_e}}{W_p}$ is 
+
+\item The geometric cross-section of two colliding protons at large energies is very well estimated by the product of the effective sizes of each particle. This is closest  
+ to
+
+\begin{enumerate}
+    \item $10$ b
+    \item $10$ mb
+    \item $10$ $\mu$b
+    \item $10$ pb
+\end{enumerate}
+
+\item For the transistor amplifier circuit shown below with $R_1 = 10~\text{k}\Omega$, $R_2 = 10~\text{k}\Omega$, $R_3 = 1~\text{k}\Omega$, and $\beta = 99$. Neglecting the emitter diode resistance, the input impedance of the amplifier looking into the base for small ac  
+ signal is . 
+
+ \begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw (8,15.5) to[R] (8,12.25);
+\draw (12,10.25) to[Tnpn, transistors/scale=1.19] (12,13.25);
+\draw (8,12.25) to[R] (8,8);
+\draw (12,8.25) to[R] (12,10.25);
+\draw (8,15.5) to[short] (12,15.5);
+\draw (12,15.5) to[short] (12,12.25);
+\draw (11,11.75) to[short, -o] (9,11.75) ;
+\draw (8,15.5) to[short, -o] (8,16.75) ;
+\node [font=\normalsize] at (9,12.25) {V(in)};
+\node [font=\normalsize] at (8,17.25) {V(cc)};
+\node [font=\normalsize] at (14.75,10.75) {V(out)};
+\draw (12,10.75) to[short, -o] (14,10.75) ;
+\node [font=\LARGE] at (7.25,13.75) {R1};
+\node [font=\LARGE] at (7.25,10) {R2};
+\node [font=\LARGE] at (11.25,9) {R3};
+\draw (8,8.25) to (8,7.25) node[ground]{};
+\draw (12,8.25) to (12,7.5) node[ground]{};
+\node [font=\normalsize] at (11.25,12) {B};
+\node [font=\normalsize] at (12.25,12.25) {C};
+\node [font=\normalsize] at (12.25,11.25) {E};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+
+\end{enumerate}
+\end{document}
