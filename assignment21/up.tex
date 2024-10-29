@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage{tikz, tkz-euclide}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{mathrsfs}
+\usepackage{pgfplots}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{mathtools}
+\DeclareMathOperator*{\infimum}{inf}
+
+% Define the custom commands
+\newcommand{\brak}[1]{\left( #1 \right)}
+\newcommand{\sbrak}[1]{\left[ #1 \right]}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\renewcommand{\prime}{\text{\textquotesingle}}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2017-MA-27-39}
+\author{EE24BTECH11034 - K Teja Vardhan}
+{\let\newpage\relax\maketitle}
+
+\begin{enumerate}
+
+\item Given two $n \times n$ matrices $A$ and $B$ with entries in $\mathbb{C}$, consider the following statements:
+
+$P$: If $A$ and $B$ have the same minimal polynomial, then $A$ is similar to $B$.
+
+$Q$: If $A$ has $n$ distinct eigenvalues, then there exists $u \in \mathbb{C}^n$ such that  
+ $u, A u, \ldots, A^{n-1} u$ are linearly independent.
+
+Which of the above statements hold TRUE?
+
+\begin{enumerate}
+    \item Both $P$ and $Q$
+    \item Only $P$
+    \item Only $Q$
+    \item Neither $P$ nor $Q$
+\end{enumerate}
+
+\item Let $A = \brak{a_{ij}}$ be a $10 \times 10$ matrix such that $a_{ij} = -1$ for $i \neq j$ and $a_{ii} = \alpha + 1$, where $\alpha > 0$. Let $\lambda$ and $\mu$ be the largest and  
+ the smallest eigenvalues of $A$, respectively. If $\lambda + \mu = 24$, then $\alpha$ equals  
+
+\item Let $C$ be the simple, positively oriented circle of radius $2$ centered at the origin in the complex plane. Then
+$\frac{2}{\pi i}\int_{C} \sbrak{\frac{e^{i \theta}}{2} + \tan \brak{\frac{z}{2}} + \frac{1}{\brak{z - 1} \brak{z - 3}^2}} \, dz = $
+
+\item Let $\operatorname{Re} \brak{z}$ and $\operatorname{Im} \brak{z}$, respectively, denote the real part and the imaginary part of a complex number $z$. Let $T: \mathbb{C} \cup \sbrak{\infty}  
+ \to \mathbb{C} \cup \sbrak{\infty}$ be the bilinear transformation such that $T \brak{6} = 0$, $T \brak{3 - 3 i} = i$, and $T \brak{0} = \infty$. Then, the image of $D = \sbrak{z \in \mathbb{C} : \abs{z - 3} < 3}$ under the mapping $w = T \brak{z}$ is
+
+\begin{enumerate}
+    \item $\sbrak{w \in \mathbb{C} : \operatorname{Im} \brak{w} < 0}$
+    \item $\sbrak{w \in \mathbb{C} : \operatorname{Re} \brak{w} < 0}$
+    \item $\sbrak{w \in \mathbb{C} : \operatorname{Im} \brak{w} > 0}$
+    \item $\sbrak{w \in \mathbb{C} : \operatorname{Re} \brak{w} > 0}$
+\end{enumerate}
+
+\item Let $\brak{x_n}$ and $\brak{y_n}$ be two sequences in a complete metric space $\brak{X, d}$ such that 
+$d \brak{x_n, x_{n+1}} \leq \frac{1}{n^2} \quad \text{and} \quad d \brak{y_n, y_{n+1}} \leq \frac{1}{n} \quad \text{for all } n \in \mathbb{N}.$
+Then
+
+\begin{enumerate}
+    \item both $\brak{x_n}$ and $\brak{y_n}$ converge
+    \item $\brak{x_n}$ converges but $\brak{y_n}$ need NOT converge
+    \item $\brak{y_n}$ converges but $\brak{x_n}$ need NOT converge
+    \item neither $\brak{x_n}$ nor $\brak{y_n}$ converges
+\end{enumerate}
+
+\item Let $f: \sbrak{0, 1} \to \mathbb{R}$ be given by $f \brak{x} = 0$ if $x$ is rational, and if $x$ is irrational then $f \brak{x} = 9^n$, where $n$ is the number of zeros immediately after the decimal point in the decimal representation of $x$. Then the Lebesgue integral
+$\int_0^1 f \brak{x} \, dx$
+equals 
+
+\item Let $f: \mathbb{R}^2 \to \mathbb{R}$ be defined by 
+$f \brak{x, y} = \begin{cases}
+\dfrac{\sin \brak{x^2 + y^2}}{\sqrt{x^2 + y^2}}, & x \neq 0, \\
+0, & x = 0.
+\end{cases}$
+Then, at $\brak{0, 0}$,
+
+\begin{enumerate}
+    \item $f$ is continuous and the directional derivative of $f$ does NOT exist in some direction
+    \item $f$ is NOT continuous and the directional derivatives of $f$ exist in all directions
+    \item $f$ is NOT differentiable and the directional derivatives of $f$ exist in all directions
+    \item $f$ is differentiable
+\end{enumerate}
+
+\item Let $D$ be the region in $\mathbb{R}^2$ bounded by the parabola $y^2 = 2 x$ and the line $y = x$. Then $\iint_D 3 x y \, dx \, dy =$
+
+\item Let $y_1 \brak{x} = x^3$ and $y_2 \brak{x} = x^2 \abs{x}$ for $x \in \mathbb{R}$.
+Consider the following statements:
+$P$: $y_1 \brak{x}$ and $y_2 \brak{x}$ are linearly independent solutions of $x^2 \frac{d^2 y}{dx^2}  
+ - 4 x \frac{dy}{dx} + 6 y = 0$ on $\mathbb{R}$.
+$Q$: The Wronskian $y_1 \brak{x} \frac{dy_2}{dx} \brak{x} - y_2 \brak{x} \frac{dy_1}{dx} \brak{x} = 0$ for all $x \in \mathbb{R}$.  
+Which of the above statements hold TRUE?
+
+\begin{enumerate}
+    \item Both $P$ and $Q$
+    \item Only $P$
+    \item Only $Q$
+    \item Neither $P$ nor $Q$
+\end{enumerate}
+
+\item Let $\alpha$ and $\beta$ with $\alpha > \beta$ be the roots of the indicial equation of $\brak{x^2 - 1}^2 \frac{d^2 y}{dx^2} + \brak{x + 1} \frac{dy}{dx} - y = 0$ at $x = -1$. Then $\alpha - 4 \beta$ equals
+
+\item Let $S_9$ be the group of all permutations of the set $\sbrak{1, 2, 3, 4, 5, 6, 7, 8, 9}$. Then the total number of elements of $S_9$ that commute with $\tau = \brak{123} \brak{4567}$ in $S_9$ equals
+
+\item Let $\mathbb{Q} \sbrak{x}$ be the ring of polynomials over $\mathbb{Q}$. Let $x^4 - 1 = p_1 p_2 \cdots p_n$ be the prime factorization of $x^4 - 1$ into irreducible polynomials in $\mathbb{Q} \sbrak{x}$ over $\mathbb{Q}$. Then the total number of maximal ideals in the quotient ring $\mathbb{Q} \sbrak{x} / \brak{x^4 - 1}$ equals
+
+\item Let $\sbrak{e_n}_{n \in \mathbb{N}}$ be an orthonormal basis of a Hilbert space $H$. Let $T: H \to H$ be given by 
+$T x = \sum_{n=1}^{\infty} \frac{1}{n} \langle x, e_n \rangle e_n.$
+For each $n \in \mathbb{N}$, define $T_n: H \to H$ by 
+$T_n x = \sum_{j=1}^{n} \frac{1}{j} \langle x, e_j \rangle e_j.$
+
+Then
+
+\begin{enumerate}
+    \item $\abs{T_n - T} \to 0$ as $n \to \infty$
+    \item $\abs{T_n - T} \to 0$ as $n \to \infty$ but for each $x \in H$, $\abs{T_n x - T x} \to 0$ as $n \to \infty$
+    \item for each $x \in H$, $\abs{T_n x - T x} \to 0$ as $n \to \infty$ but the sequence $\brak{\abs{T_n}}$ is unbounded
+    \item there exist $x, y \in H$ such that $\langle T_n x, y \rangle \nrightarrow \langle T x, y \rangle$ as $n \to \infty$
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
