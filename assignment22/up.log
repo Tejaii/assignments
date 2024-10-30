@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.9)  29 OCT 2024 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.9)  30 OCT 2024 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,7 +983,8 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 24.
- (./up.aux)
+
+No file up.aux.
 \openout1 = `up.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1000,7 +1001,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count343
@@ -1094,12 +1094,16 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 49896 strings out of 474222
- 1374206 string characters out of 5748734
- 2069762 words of memory out of 5000000
- 71498 multiletter control sequences out of 15000+600000
+ 49893 strings out of 474222
+ 1374173 string characters out of 5748734
+ 2070762 words of memory out of 5000000
+ 71497 multiletter control sequences out of 15000+600000
  565701 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,10n,107p,1172b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1114,7 +1118,7 @@ blic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on up.pdf (3 pages, 138354 bytes).
+Output written on up.pdf (3 pages, 138156 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
