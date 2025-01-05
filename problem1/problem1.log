@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.9)  5 JAN 2025 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.9)  5 JAN 2025 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1911,7 +1911,7 @@ File: /home/teja-vardhan/scientific_computing/problem1/figs/p1.png Graphic file
  (type png)
 <use /home/teja-vardhan/scientific_computing/problem1/figs/p1.png>
 Package pdftex.def Info: /home/teja-vardhan/scientific_computing/problem1/figs/
-p1.png  used on input line 151.
+p1.png  used on input line 152.
 (pdftex.def)             Requested size: 182.09764pt x 136.57513pt.
  [2 </home/teja-vardhan/scientific_computing/problem1/figs/p1.png>] (./problem1
 .aux)
@@ -1919,16 +1919,12 @@ p1.png  used on input line 151.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `problem1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52943 strings out of 474222
- 1254888 string characters out of 5748734
+ 52944 strings out of 474222
+ 1254901 string characters out of 5748734
  1941975 words of memory out of 5000000
  74370 multiletter control sequences out of 15000+600000
  623283 words of font info for 169 fonts, out of 8000000 for 9000
@@ -1940,10 +1936,10 @@ exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on problem1.pdf (2 pages, 74997 bytes).
+Output written on problem1.pdf (2 pages, 75149 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
